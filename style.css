@@ -1,0 +1,1228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.6s linear;
+}
+
+
+.first{
+   
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+ 
+
+}
+.header{
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 0 4rem;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 4px 8px 3px rgba(128, 128, 128, 0.785);
+
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 2rem;
+    
+}
+
+  .navbar .menu  a{
+    padding: 0 1rem;
+    text-transform: uppercase;
+    color: #064f47;
+    font-weight: 600;
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu a:hover{
+    background-color:#FF006E;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.icons i {
+   margin-right: 20px;
+   font-size: 1.3rem;
+    color:#064f47;
+    cursor: pointer;
+}
+#bars{
+    display: none;
+}
+
+
+.first .front{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #F9B8B8;
+    border-bottom-right-radius: 320px;
+
+
+
+}
+
+.first  .front-img img{
+    margin-top: 2rem;
+    height: 380px;
+    width: 300px;
+    margin-right: 2rem;
+}
+
+
+.contents{
+
+    padding:  5rem;
+    width: 50%;
+}
+
+
+.contents  h1{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 7rem;
+    color: #064f47;
+}
+
+.contents  p {
+    font-size: 16px;
+    margin-top: 1rem;
+    text-align: left;
+    color: #064f47;
+}
+
+.btn{
+    padding: 12px 1.5rem;
+    color: #fff;
+    background-color: #FF006E;
+    border-radius: 11px;
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+}
+.btn:hover{
+    color: #da0662;
+    background-color: #fff;
+    border: 2px solid #da0662;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.forms{
+    position: relative;
+}
+.form-search{
+    position: fixed;
+    top: -110%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0 , 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding:  0 1rem;
+}
+
+#search-box{
+    width: 30rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 1rem 0;
+    background: none;
+    color: #fff;
+    
+
+
+}
+
+#times{
+font-size: 3rem;
+position: absolute;
+top: 1rem;
+right: 1rem;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+}
+
+form label{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+#search-box::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-search.act{
+    top: 0;
+}
+
+
+/* ////////////////   womens section styling    ///////////////// */
+
+
+#womens-wear{
+  margin-top: 10rem;
+    height: 89vh;
+   border: 2px solid white;
+}
+
+#women{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem  3rem;
+     
+}
+#womens{
+    font-size: 2rem;
+    text-align: center;
+    color: #064f47;
+    border-bottom:3px solid #ff8fab;
+    display: inline-block;
+    margin-left: 35rem;
+    margin-bottom: 2.2rem;
+    margin-top: 6.5rem;
+    
+}
+
+.womens img{
+   
+    height: 70%;
+    width: 100%;
+}
+.womens-wear .card h2{
+    font-size: 1rem;
+}
+
+
+/* ////////////////    mens section styling    ///////////////// */
+
+
+#mens-wear{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background: #FBF7F6;
+    border: 2px solid #fff;
+    margin-top: 12rem;
+}
+.mens{
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    right: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    justify-content: space-around;
+   
+}
+
+#mens-wear .card h2{
+    font-size: 1rem;
+}
+
+#mens{
+    font-size: 2rem;
+    text-align: center;
+   margin-top: 4rem;
+   color: #064f47;
+   border-bottom:3px solid #ff8fab;
+   display: inline-block;
+   margin-left: 35rem;
+}
+
+.mens img{
+   
+    height: 50%;
+    width: 50%;
+}
+
+
+
+/* ////////////////    slider section styling    ///////////////// */
+
+
+
+
+#slider{
+   
+    height: 96vh;
+    width: 100%;
+    border: 2px solid #FFF;
+   
+}
+#slider h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    color: #064f47;
+    border-bottom:3px solid #ff8fab;
+    display: inline-block;
+    margin-left: 35rem;
+}
+
+.allSlider{
+    position: relative;
+height: 65vh;
+width: 80%;
+background: #000;
+margin:2rem auto;
+overflow: hidden;
+
+}
+
+.slideCard{
+ position: absolute;
+height: 100%;
+width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition:all 1s ease-in ;
+
+}
+.slideCard img{
+    height: 350px;
+    width: 300px;
+    margin-inline:30px;
+}
+
+
+
+
+/* /////////////  blogs section //////////// */
+
+#blogs h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #064f47;
+    border-bottom:3px solid #ff8fab;
+    display: inline-block;
+    margin-left: 35rem;
+}
+.blogTrends{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#blogs{
+    padding-top: 6rem;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 4rem;
+
+}
+
+.girls{
+    height: 60vh;
+    width: 20%;
+    background-color: #064f47;
+    border-radius: 1rem;
+    
+}
+.girls img{
+    border-radius: 1rem;
+    margin-left: .6rem;
+    margin-top: 8px;
+    height: 270px;
+    width: 230px;
+}
+.girls h1{
+    margin-top: 9px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.girls a{
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    padding: 8px 1rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+   display:inline-block;
+}
+
+.girls a:hover{
+    color: #064f47;
+    background-color: #fff;
+}
+
+.boys{
+    height: 60vh;
+    width: 20%;
+    background-color: #064f47;
+    border-radius: 1rem;
+}
+.boys img{
+    border-radius: 1rem;
+    margin-left: .6rem;
+    margin-top: 8px;
+    height: 270px;
+    width: 230px;
+}
+.boys h1{
+    margin-top: 9px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.boys a{
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    padding: 8px 1rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display:inline-block;
+   
+}
+
+
+.boys a:hover{
+    color: #064f47;
+    background-color: #fff;
+}
+
+
+
+
+/* //////////////////   footer section ////////////////// */
+
+#footer{
+    height: 47vh;
+    width: 100%;
+    background: #F9B8B8;
+    margin-top: 5rem;
+}
+
+.lastpart{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+    color: #064f47;
+}
+
+.lastpart h3{
+    font-size: 1.7rem;
+
+}
+.lastpart ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1rem;
+    margin-top:10px ;
+}
+
+
+/* /////////////   javascript  Css ////////////////// */
+
+
+
+
+.carDetails{
+    display: flex;
+    gap: 28px;
+    padding: 2rem;
+}
+
+.carDetails h2{
+    margin-top: 1rem;
+}
+
+
+.carDetails p {
+    margin-top: 1rem;
+}
+
+.carDetails button{
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    background-color: #064f47;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.carDetails a{
+    text-decoration: none;
+    padding: 6px  16px;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+
+}
+
+.carDetails img{
+    height: 350px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////   media quieries  //////////// */
+
+
+
+@media (max-width:875px){
+
+  
+
+    .header  .menu{
+
+        font-size: 11px;
+
+    }
+    .icons{
+        font-size: .8rem;
+        margin-right: 15px;
+    }
+
+    .logo img{
+        margin-left: .6rem;
+    }
+    .contents{
+        padding:  4rem;
+        width: 60%;
+    }
+    
+
+.contents  h1{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 8rem;
+}
+.contents  p {
+    font-size: 13px;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.front-img  img{
+    padding-top: 3rem;
+    height: 80%;
+    padding-right: -1rem;
+}
+
+    #women{
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem  2rem;
+         
+    }
+    #womens{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2.2rem;
+        margin-top: 5rem;
+    }
+    
+    .womens img{
+       
+        height: 50%;
+        width: 70%;
+    }
+    
+.mens{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    right: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+    justify-content: space-around;
+   
+}
+
+
+
+#mens{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -10rem;
+}
+
+.mens img{
+   
+    height: 70%;
+    width: 70%;
+}
+
+
+.card h2{
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.spn{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+
+
+#slider{
+   margin-top: -8rem;
+    height: 96vh;
+    width: 100%;
+   
+}
+#slider h1{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+.allSlider{
+    position: relative;
+height: 40vh;
+width: 70%;
+background: #000;
+margin:2rem auto;
+overflow: hidden;
+
+}
+
+.slideCard{
+ position: absolute;
+height: 100%;
+width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition:all 1s ease-in ;
+
+}
+.slideCard img{
+    height: 180px;
+    width: 150px;
+    margin-inline:20px;
+}
+
+
+
+
+/* /////////////  blogs section //////////// */
+
+#blogs h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.blogTrends{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#blogs{
+    padding-top: 2rem;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.girls{
+    height: 60vh;
+    width: 30%;
+    background-color: #064f47;
+    border-radius: 1rem;
+}
+
+
+
+
+.boys{
+    height: 60vh;
+    width: 30%;
+    background-color: #064f47;
+    border-radius: 1rem;
+}
+
+
+.lastpart h3{
+    font-size: 1.4rem;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:680px){
+
+    .header{
+        position:absolute;
+        top: 0;
+        left: 0;
+        padding: 1.8rem;
+
+    }
+    .logo img{
+
+        height: 60px;
+        width: 60px;
+
+    }
+    #bars{
+   
+        display: inline-block;
+        font-size: 1.3rem;
+    }
+   
+
+    .navbar{
+        height: 0;
+        width: 100%;
+        background-color: #ffffff;
+        position:relative;
+        top: 270px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        overflow: hidden;
+        z-index: 1;
+
+    }
+
+    .navbar.active{
+        height: 480px;
+    }
+
+    .navbar  a{
+        display: block;
+        font-size: 1.5rem;
+        color: #064f47;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+        margin:40px auto 0 auto ;
+        width: fit-content;
+        padding: 2rem;
+       
+        
+    }
+    .navbar.active a{
+        opacity: 1;
+    }
+    .menu a:hover{
+        color: #fff;
+        background-color: #064f47;
+        border-radius: 25px;
+        padding: 1rem  2rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icons i {
+       
+        font-size: 1rem;
+         color:#064f47;
+         cursor: pointer;
+     }
+   
+.forms{
+    position: relative;
+}
+.form-search{
+    position: fixed;
+    top: -110%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0 , 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding:  0 1rem;
+}
+
+#search-box{
+    width: 25rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 1rem 0;
+    background: none;
+    color: #fff;
+    
+
+
+}
+
+#times{
+font-size: 2rem;
+position: absolute;
+top: 3rem;
+right: 5rem;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+}
+
+form label{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#search-box::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+
+.form-search.act{
+    top: 0;
+}
+
+
+.container .front{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7%;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column-reverse;
+    background: #ff8fab;
+
+}
+
+.front-img img{
+    height: 60%;
+    width: 90%;
+
+}
+
+
+.contents{
+
+    padding:  3rem;
+    width: 50%;
+}
+
+
+.contents  h1{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contents  p {
+    font-size: 12px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 12px 1.5rem;
+    color: #fff;
+    background-color: #FF006E;
+    border-radius: 11px;
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.btn:hover{
+    color: #da0662;
+    background-color: #fff;
+    border: 2px solid #da0662;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+
+/* ////////////////   womens section styling    ///////////////// */
+
+
+.womens-wear{
+    position: relative;
+    height: 99vh;
+    bottom: 2px solid red;
+    width: 100%;
+}
+
+#women{position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+     
+}
+#womens{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30rem;
+}
+
+.womens img{
+   
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* ////////////////    mens section styling    ///////////////// */
+
+
+#mens-wear{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+.mens{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10rem;
+    
+   
+   
+}
+
+
+
+#mens{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 35rem;
+}
+
+.mens img{
+   
+    height: 60%;
+    width: 60%;
+}
+
+
+.card{
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:450px){
+    
+.container .front{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11%;
+    width: 100%;
+    display: flex;
+    background: #064f47;
+
+}
+
+.contents{
+    width: 50%;
+    padding: 0;
+}
+
+
+.contents  h1{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.contents  p {
+    font-size: 12px;
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+
+.front-img  img{
+    padding-top: 1rem;
+    height: 350px;
+    
+}
+
+
+
+.btn{
+    padding: 12px 1.5rem;
+    color: #fff;
+    background-color: #FF006E;
+    border-radius: 11px;
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+   margin-left: 3rem;
+}
+.btn:hover{
+    color: #da0662;
+    background-color: #fff;
+    border: 2px solid #da0662;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+
+#womens{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+#mens{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 38rem;
+}
+
+.mens{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7rem;
+   
+}
+
+
+
+/* ////////////////    slider section styling    ///////////////// */
+
+
+
+
+#slider{
+   
+    height: 96vh;
+    width: 100%;
+   
+}
+#slider h1{
+    text-align: center;
+    margin-top: 40rem;
+    font-size: 2.5rem;
+}
+
+.allSlider{
+    position: relative;
+height: 96vh;
+width: 80%;
+background: #000;
+margin:2rem auto;
+overflow: hidden;
+
+}
+
+.slideCard{
+ position: absolute;
+height: 100%;
+width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition:all 1s ease-in ;
+
+}
+.slideCard img{
+    height: 230px;
+    width: 200px;
+   margin-top: 1.75rem;
+}
+
+
+
+
+
+
+/* /////////////  blogs section //////////// */
+
+#blogs h2{
+    text-align: center;
+    font-size: 2rem;
+
+   
+}
+.blogTrends{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#blogs{
+    padding-top: 2rem;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.girls{
+    height: 60vh;
+    width: 30%;
+    background-color: #064f47;
+    border-radius: 1rem;
+}
+
+
+
+
+.boys{
+    height: 60vh;
+    width: 30%;
+    background-color: #064f47;
+    border-radius: 1rem;
+}
+
+
+.lastpart h3{
+    font-size: 1.4rem;
+
+}
+
+}
